@@ -32,11 +32,11 @@
     justify-content: space-around;
     height:100vh;
     align-items: center;
-    /* background-color: url("../images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e); */
-    background-color: black;
-    /* background-repeat: no-repeat;
+    background-image: url("../images/background.png"),linear-gradient(45deg,rgb(5,5,5),rgb(53,53,53));
+    /* background-color: black; */
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
 }
 .banner-img{
     width:200px;
@@ -57,4 +57,18 @@
     padding:10px;
     border: none;
     color:white;
+}
+.about-title{
+    color:black;
+    text-align: center;
+    padding: 25px;
+    margin-bottom:10px;
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pera{
+    margin:20px 0px;
 }
