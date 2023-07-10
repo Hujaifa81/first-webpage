@@ -102,3 +102,47 @@
     width:70px;
     padding:10px;
 }
+.logo-footer{
+    width:200px;
+       
+}
+.footer-container{
+    background-image: url("../images/background.png"),linear-gradient(45deg,rgb(0,0,0),rgb(0,0,0));
+    color: white;
+
+    height:70vh;
+    
+}
+.part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.single-part{
+   padding-top: 80px;
+}
+.footer-list{
+    display:block;
+    list-style: none;
+}
+.single-part-title{
+    padding-top:80px ;
+    padding-bottom: 30px;
+}
+hr{
+    
+    margin-top:100px;
+    margin-left:140px;
+    margin-right: 140px;
+    margin-bottom: 30px;
+    
+}
+.copy{
+    margin-left: 500px;
+   
+}
+.btn:hover{
+    background-color:aqua ;
+    cursor: pointer;
+    
+}
