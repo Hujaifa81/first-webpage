@@ -72,3 +72,33 @@
 .pera{
     margin:20px 0px;
 }
+.services-container{
+    background-image:url("../images/background.png"),linear-gradient(45deg,rgb(5,5,5),rgb(53, 53, 53));
+    height:80vh;
+    margin-top: 20px;
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.single-box{
+    width:240px;
+    height:280px;
+    border:1px solid gray;
+    text-align: center;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+    color:white;
+}
+.box-title{
+    color:white;
+}
+.box-p{
+    color:white;
+    padding:10px;
+}
+.icon{
+    width:70px;
+    padding:10px;
+}
